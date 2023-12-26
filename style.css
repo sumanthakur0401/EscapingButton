@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(202, 210, 255);
+    background-image:url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
+    background-size: 2220px 1380px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.loginShape{
+    margin: 200px auto;
+    height:600px;
+    width: 500px;
+    background: rgba(163, 163, 163, 0.375);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid white;
+}
+
+.form{
+    font-size: 1.1rem;
+    margin: 10%;
+  }
+
+.formHeader{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  .form .message {
+    color: #fff;
+    font-size: 18px;
+  }
+  .form .message a {
+    color:#0057ff;
+    text-decoration: none;
+  }
+  .form .message a:hover {
+    text-decoration: underline;
+  }
+
+  .hint{
+    padding-top: 20px;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 2px;
+  }
+
+.form input{
+    color: rgb(249, 249, 249);
+    font-size: 1.2rem;
+    background: #fcfcfc01;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    transition: .5s;
+    border-bottom: 2px solid #fdfeff;
+}  
+.form input::placeholder{
+    visibility: hidden; 
+}
+.form input:hover{
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+.form input:focus{
+    border-bottom: 2px solid #0057ff;
+}
+
+.form .continue{
+    position: relative;
+    background-color: #f3ec78;
+    background: #0057ff;
+    color: transparent;
+    width: 110px;
+    margin: 20px 0px;
+    height: 35px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: 1px solid #0057ff;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: all 0.3 ease;
+    transition: all .5s;
+    cursor: pointer;
+  }
+  .form .continue:hover {
+    background: #003db7;
+    border: 1px solid #003db7;
+  }
+
+  .createdTag{
+    color: white;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 140px;
+  }
+  .createdTag a{
+    text-decoration: underline;
+    color: #a0bffe;
+  }
